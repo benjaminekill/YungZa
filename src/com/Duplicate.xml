@@ -1,0 +1,11 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<ns2:getSubject xmlns:ns2="http://www1.reg.kmitl.ac.th/service/"
+			xmlns:ns3="http://regchumphon.kmitl.ac.th/registrar/service/">
+			<ns2:subject_id>02216713</ns2:subject_id>
+			<ns2:degree>1</ns2:degree>
+			<ns2:detail>true</ns2:detail>
+		</ns2:getSubject>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
